@@ -1,24 +1,5 @@
 import 'package:flutter/material.dart';
 
-// [Bagian 1: main() dan class MyApp]
-void main() => runApp(const MyApp());
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Form Mahasiswa - Bagian 1',
-      theme: ThemeData(
-        useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
-      ),
-      home: const FormMahasiswaPage(),
-    );
-  }
-}
-
 // [Bagian 2: StatefulWidget FormMahasiswaPage]
 class FormMahasiswaPage extends StatefulWidget {
   const FormMahasiswaPage({super.key});
